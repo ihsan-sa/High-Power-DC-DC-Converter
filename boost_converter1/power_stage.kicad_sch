@@ -302,170 +302,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C_Polarized_US"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Polarized_US"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Polarized capacitor, US symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CP_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_Polarized_US_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.286) (xy -0.762 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.778) (xy -1.27 2.794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.032 -1.27)
-					(mid 0 -0.5572)
-					(end 2.032 -1.27)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_Polarized_US_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 3.302)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:D"
 			(pin_numbers
 				(hide yes)
@@ -796,53 +632,50 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:IRFP4468PbF"
+		(symbol "IRFP260N:IRFP260NPBF"
 			(pin_names
-				(hide yes)
+				(offset 0.254)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
+			(property "Reference" "U"
+				(at 11.43 1.905 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "IRFP4468PbF"
-				(at 5.08 0 0)
+			(property "Value" "IRFP260NPBF"
+				(at 11.43 -2.54 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-247-3_Vertical"
-				(at 5.08 -1.905 0)
+			(property "Footprint" "PG-TO247-3-46_INF"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 						(italic yes)
 					)
-					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.infineon.com/dgdl/irfp4468pbf.pdf?fileId=5546d462533600a40153562c73472019"
-				(at 5.08 -3.81 0)
+			(property "Datasheet" "IRFP260NPBF"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
-					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Description" "195A Id, 100V Vds, N-Channel Power MOSFET, TO-247"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -851,7 +684,15 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "N-Channel Power MOSFET"
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "IRFP260NPBF"
 				(at 0 0 0)
 				(effects
 					(font
@@ -860,7 +701,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TO?247*"
+			(property "ki_fp_filters" "PG-TO247-3-46_INF"
 				(at 0 0 0)
 				(effects
 					(font
@@ -869,13 +710,13 @@
 					(hide yes)
 				)
 			)
-			(symbol "IRFP4468PbF_0_1"
+			(symbol "IRFP260NPBF_0_1"
 				(polyline
 					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
+						(xy 2.54 0) (xy 4.445 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -884,10 +725,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0.254 0) (xy -2.54 0)
+						(xy 4.445 -2.54) (xy 4.445 2.54)
 					)
 					(stroke
-						(width 0)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -896,10 +737,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
+						(xy 5.08 1.905) (xy 6.985 1.905)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -908,10 +749,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
+						(xy 5.08 1.27) (xy 5.08 2.54)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -920,10 +761,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
+						(xy 5.08 -0.635) (xy 5.08 0.635)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -932,10 +773,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+						(xy 5.08 -1.905) (xy 6.985 -1.905)
 					)
 					(stroke
-						(width 0)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -944,21 +785,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+						(xy 5.08 -2.54) (xy 5.08 -1.27)
 					)
 					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -967,30 +797,8 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
+						(xy 6.35 0.635) (xy 5.08 0) (xy 6.35 -0.635)
 					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
 					(stroke
 						(width 0)
 						(type default)
@@ -1001,10 +809,21 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+						(xy 6.35 0) (xy 6.985 0)
 					)
 					(stroke
-						(width 0)
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 6.35 0)
+					(radius 3.81)
+					(stroke
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -1013,10 +832,10 @@
 				)
 				(polyline
 					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+						(xy 6.985 2.54) (xy 8.255 2.54)
 					)
 					(stroke
-						(width 0)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -1025,20 +844,123 @@
 				)
 				(polyline
 					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+						(xy 6.985 1.905) (xy 6.985 2.54)
 					)
 					(stroke
-						(width 0)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-			)
-			(symbol "IRFP4468PbF_1_1"
-				(pin input line
-					(at -5.08 0 0)
+				(circle
+					(center 6.985 -1.905)
+					(radius 0.0254)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.985 -2.54) (xy 6.985 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.985 -2.54) (xy 8.255 -2.54)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 7.62 2.54)
+					(radius 0.0254)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 7.62 -2.54)
+					(radius 0.0254)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.255 0.635) (xy 8.255 2.54)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.255 -2.54) (xy 8.255 -0.635)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 0.635) (xy 7.62 0.635)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 -0.635) (xy 7.62 -0.635) (xy 8.255 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
 					(length 2.54)
 					(name "G"
 						(effects
@@ -1055,8 +977,8 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 2.54 5.08 270)
+				(pin unspecified line
+					(at 7.62 5.08 270)
 					(length 2.54)
 					(name "D"
 						(effects
@@ -1073,8 +995,8 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 2.54 -5.08 90)
+				(pin unspecified line
+					(at 7.62 -5.08 90)
 					(length 2.54)
 					(name "S"
 						(effects
@@ -1084,6 +1006,306 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "UVZ2A331MHD1TO:UVZ2A331MHD1TO"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 3.81 3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "UVZ2A331MHD1TO"
+				(at 3.81 -3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "CAP_UEP_12P5X25_NCH"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "UVZ2A331MHD1TO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "UVZ2A331MHD1TO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CAP_UEP_12P5X25_NCH"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "UVZ2A331MHD1TO_1_1"
+				(polyline
+					(pts
+						(xy 0.9525 0.9525) (xy 1.5875 0.9525)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 0.635)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 3.4798 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.4798 -1.905) (xy 3.4798 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.1148 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.1148 -1.905) (xy 4.1148 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "UVZ2A331MHD1TO_1_2"
+				(polyline
+					(pts
+						(xy -1.905 -3.4798) (xy 1.905 -3.4798)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -4.1148) (xy 1.905 -4.1148)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -3.4798)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -4.1148) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.3175 -1.5875) (xy 0.9525 -1.5875)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -1.27) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1322,8 +1544,8 @@
 		)
 	)
 	(rectangle
-		(start 80.01 50.8)
-		(end 170.18 85.09)
+		(start 81.915 38.1)
+		(end 198.12 85.09)
 		(stroke
 			(width 0)
 			(type default)
@@ -1335,7 +1557,7 @@
 	)
 	(text "Boost\n\n"
 		(exclude_from_sim no)
-		(at 82.55 50.038 0)
+		(at 84.328 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1346,22 +1568,46 @@
 		(uuid "1d118fee-5d83-479e-8a22-938d22e9c8c4")
 	)
 	(junction
-		(at 130.81 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "013257bd-f875-4166-ad33-5709ded20ec5")
-	)
-	(junction
 		(at 109.22 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2b8066f5-5e45-4544-918b-2831dbbf488c")
 	)
 	(junction
-		(at 130.81 73.66)
+		(at 173.99 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "79a17071-805d-4163-8483-b1bac67695b9")
+		(uuid "30ae52b8-ec22-4600-977c-fcbedfefe19c")
+	)
+	(junction
+		(at 137.16 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "318362a5-34c5-4ba1-b23a-ad5e24122441")
+	)
+	(junction
+		(at 173.99 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3379ad89-0141-424c-81fe-6e0b3362cd09")
+	)
+	(junction
+		(at 137.16 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76e6c1ac-0923-4a15-b642-f33a97d4ae69")
+	)
+	(junction
+		(at 162.56 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c68455b-0306-43d4-a800-102006e64d2c")
+	)
+	(junction
+		(at 148.59 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91b05779-d569-48a6-a856-b67351a11a66")
 	)
 	(junction
 		(at 109.22 60.96)
@@ -1370,20 +1616,48 @@
 		(uuid "92d4f741-4aaf-40e6-a1e7-90b4186f630b")
 	)
 	(junction
-		(at 140.97 60.96)
+		(at 162.56 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b2af5d5b-d440-4e13-8bd1-105fb6e5afec")
+		(uuid "aa878f5e-5966-4ffe-a200-50d4b746641a")
+	)
+	(junction
+		(at 151.13 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b246d6ed-7929-4061-9be5-90d632cc71ab")
+	)
+	(junction
+		(at 151.13 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "deb37c16-402f-4a7b-b851-f60473348018")
+	)
+	(junction
+		(at 162.56 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa7b116e-a6c8-4f11-92f4-e48c4df84cd1")
 	)
 	(wire
 		(pts
-			(xy 130.81 60.96) (xy 130.81 63.5)
+			(xy 162.56 73.66) (xy 173.99 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "09db21a9-2977-4ac6-8e6f-7bf4f03c2b14")
+		(uuid "08623dc1-5215-422b-90b6-c1d408e8d4c9")
+	)
+	(wire
+		(pts
+			(xy 137.16 71.12) (xy 137.16 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1410535e-d5e4-4d86-85c0-3fd0ca97f1fc")
 	)
 	(wire
 		(pts
@@ -1397,27 +1671,17 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 71.12) (xy 130.81 73.66)
+			(xy 151.13 60.96) (xy 151.13 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "29cc7677-9991-47fd-bdf2-47626808ed22")
+		(uuid "2af78ddd-6feb-49b0-8269-db77a49c4742")
 	)
 	(wire
 		(pts
-			(xy 121.92 60.96) (xy 130.81 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "341b6565-3bed-4d93-91db-63b868ed88b1")
-	)
-	(wire
-		(pts
-			(xy 154.94 60.96) (xy 140.97 60.96)
+			(xy 190.5 60.96) (xy 173.99 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1457,13 +1721,23 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 68.58) (xy 154.94 73.66)
+			(xy 190.5 68.58) (xy 190.5 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "68466031-d06b-4c62-b99a-f32382394d45")
+	)
+	(wire
+		(pts
+			(xy 137.16 60.96) (xy 148.59 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7074a5fe-6e1b-4294-85ac-124d5f060d3f")
 	)
 	(wire
 		(pts
@@ -1477,17 +1751,27 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 73.66) (xy 130.81 73.66)
+			(xy 173.99 71.12) (xy 173.99 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7a333918-f57d-4e14-a1d4-2a983dc2208f")
+		(uuid "7f4fff4a-5419-4071-bc11-7bd48e6db48c")
 	)
 	(wire
 		(pts
-			(xy 154.94 73.66) (xy 130.81 73.66)
+			(xy 173.99 60.96) (xy 173.99 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "820ddae4-3528-41ed-b0bd-854ad5b45554")
+	)
+	(wire
+		(pts
+			(xy 109.22 73.66) (xy 137.16 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1497,7 +1781,37 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 66.04) (xy 154.94 60.96)
+			(xy 162.56 60.96) (xy 162.56 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c7aea45-4e7e-4c3c-b71f-d794bf1728a2")
+	)
+	(wire
+		(pts
+			(xy 151.13 73.66) (xy 162.56 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91cbd6b3-69c6-4ec5-80d9-96488d53f5b7")
+	)
+	(wire
+		(pts
+			(xy 109.22 50.8) (xy 109.22 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b33676b6-b061-4ceb-a9df-191c998943f6")
+	)
+	(wire
+		(pts
+			(xy 190.5 66.04) (xy 190.5 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1507,7 +1821,17 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 60.96) (xy 114.3 60.96)
+			(xy 162.56 69.85) (xy 162.56 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bacf71ff-6de7-45eb-a317-0897521da6ab")
+	)
+	(wire
+		(pts
+			(xy 109.22 60.96) (xy 121.92 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1517,7 +1841,17 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 60.96) (xy 130.81 60.96)
+			(xy 137.16 60.96) (xy 137.16 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfbffeb6-f2f2-4864-8a01-f1b4037ce6ca")
+	)
+	(wire
+		(pts
+			(xy 129.54 60.96) (xy 137.16 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1537,6 +1871,46 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 73.66) (xy 190.5 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d05bf442-04c3-4432-b1bc-dd16ed3d1756")
+	)
+	(wire
+		(pts
+			(xy 137.16 73.66) (xy 151.13 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4e89179-72ef-4904-9c2f-e15832cb6f67")
+	)
+	(wire
+		(pts
+			(xy 151.13 60.96) (xy 148.59 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1554949-2d36-469f-ac0f-5f3ee0ca7424")
+	)
+	(wire
+		(pts
+			(xy 162.56 71.12) (xy 162.56 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec1d4725-9ef3-4434-b5f3-4c69abf2af61")
+	)
+	(wire
+		(pts
 			(xy 88.9 73.66) (xy 109.22 73.66)
 		)
 		(stroke
@@ -1544,6 +1918,16 @@
 			(type default)
 		)
 		(uuid "ee14f1f7-87ce-444e-bbe8-b0f87eef5e78")
+	)
+	(wire
+		(pts
+			(xy 162.56 60.96) (xy 151.13 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2666521-6289-4de0-a7f1-dfb7c3c85ca0")
 	)
 	(wire
 		(pts
@@ -1555,7 +1939,47 @@
 		)
 		(uuid "f503bacd-5e0e-4402-80ba-1f000321fe6d")
 	)
-	(global_label "boost_pwm"
+	(wire
+		(pts
+			(xy 151.13 71.12) (xy 151.13 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5682159-94d7-4dfb-9e04-8c680ad42763")
+	)
+	(wire
+		(pts
+			(xy 173.99 60.96) (xy 162.56 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fad4aee0-1741-47f7-bb84-06e53a95347d")
+	)
+	(label "BOOST_OUTPUT"
+		(at 133.35 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2ed5ccee-f1c2-4d93-8c3c-156c9f6acc8c")
+	)
+	(label "BOOST_FET_DRAIN"
+		(at 104.14 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4dbd5d59-77a3-4a2b-a085-925c34eff436")
+	)
+	(global_label "BOOST_PWM"
 		(shape input)
 		(at 97.79 67.31 180)
 		(fields_autoplaced yes)
@@ -1569,7 +1993,7 @@
 		)
 		(uuid "df9bbc51-d527-4448-a15d-b4d22b045587")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 83.9876 67.31 0)
+			(at 83.0803 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1581,7 +2005,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 109.22 60.96 0)
+		(at 109.22 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1589,7 +2013,7 @@
 		(dnp no)
 		(uuid "08fdba90-fc39-4b3c-87e9-189362384892")
 		(property "Reference" "TP2"
-			(at 107.696 55.372 0)
+			(at 107.696 45.212 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1598,7 +2022,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 111.76 58.9279 0)
+			(at 111.76 48.7679 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1608,7 +2032,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 60.96 0)
+			(at 114.3 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1617,7 +2041,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 60.96 0)
+			(at 114.3 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1626,7 +2050,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 109.22 60.96 0)
+			(at 109.22 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1641,76 +2065,6 @@
 			(project "boost_converter1"
 				(path "/cab80593-e0bb-4db5-b73e-7b669222cb07/a5636f50-9f73-4124-ba2d-dfde1a48dc6e"
 					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized_US")
-		(at 130.81 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0e9c1b23-e53c-4f0b-84ee-452d6392cc0c")
-		(property "Reference" "C3"
-			(at 134.62 65.4049 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C_Polarized_US"
-			(at 134.62 67.9449 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 130.81 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor, US symbol"
-			(at 130.81 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3b07b3c9-63a5-4954-a280-097267aa9378")
-		)
-		(pin "2"
-			(uuid "6d9b8515-e1a0-4847-bd47-8fc0309e9f5e")
-		)
-		(instances
-			(project "boost_converter1"
-				(path "/cab80593-e0bb-4db5-b73e-7b669222cb07/a5636f50-9f73-4124-ba2d-dfde1a48dc6e"
-					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -1783,8 +2137,229 @@
 		)
 	)
 	(symbol
+		(lib_id "UVZ2A331MHD1TO:UVZ2A331MHD1TO")
+		(at 173.99 63.5 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50db8496-0357-4802-a404-781e74e593b2")
+		(property "Reference" "C8"
+			(at 177.8 65.2652 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "UVZ2A331MHD1TO"
+			(at 177.8 67.8052 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "CAP_UEP_12P5X25_NCH"
+			(at 173.99 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "UVZ2A331MHD1TO"
+			(at 173.99 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f4b71caf-4742-47b3-82fd-6f9ec5b1c265")
+		)
+		(pin "1"
+			(uuid "c8b98d31-f080-46bb-814a-5f8fa466e6c4")
+		)
+		(instances
+			(project "boost_converter1"
+				(path "/cab80593-e0bb-4db5-b73e-7b669222cb07/a5636f50-9f73-4124-ba2d-dfde1a48dc6e"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "IRFP260N:IRFP260NPBF")
+		(at 101.6 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "564fa7cf-8481-48f7-b490-f63bb51d5261")
+		(property "Reference" "U2"
+			(at 113.03 66.0399 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRFP260NPBF"
+			(at 113.03 68.5799 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PG-TO247-3-46_INF"
+			(at 101.6 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "IRFP260NPBF"
+			(at 101.6 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b17d89b-0e3a-41d7-a66b-04d70fce9df5")
+		)
+		(pin "1"
+			(uuid "94fee607-bf51-4690-b879-9cf19e1fefd2")
+		)
+		(pin "3"
+			(uuid "916355b3-fc0a-4306-80b4-c9a44b5d5118")
+		)
+		(instances
+			(project ""
+				(path "/cab80593-e0bb-4db5-b73e-7b669222cb07/a5636f50-9f73-4124-ba2d-dfde1a48dc6e"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UVZ2A331MHD1TO:UVZ2A331MHD1TO")
+		(at 137.16 63.5 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b320582-858c-42d3-bdc7-70cf1e78fa33")
+		(property "Reference" "C3"
+			(at 140.97 65.2652 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "UVZ2A331MHD1TO"
+			(at 140.97 67.8052 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "CAP_UEP_12P5X25_NCH"
+			(at 137.16 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "UVZ2A331MHD1TO"
+			(at 137.16 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "eedc0617-818d-4951-bb75-bdaead9d1e29")
+		)
+		(pin "1"
+			(uuid "b387feec-d869-4ca9-909c-6a74c5d71855")
+		)
+		(instances
+			(project ""
+				(path "/cab80593-e0bb-4db5-b73e-7b669222cb07/a5636f50-9f73-4124-ba2d-dfde1a48dc6e"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 160.02 66.04 0)
+		(at 195.58 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1793,7 +2368,7 @@
 		(fields_autoplaced yes)
 		(uuid "5e05c263-0153-4ff8-89c7-bf0fab091a04")
 		(property "Reference" "J2"
-			(at 162.56 66.0399 0)
+			(at 198.12 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1802,7 +2377,7 @@
 			)
 		)
 		(property "Value" "Load"
-			(at 162.56 68.5799 0)
+			(at 198.12 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1811,7 +2386,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 66.04 0)
+			(at 195.58 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1820,7 +2395,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 66.04 0)
+			(at 195.58 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1829,7 +2404,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 160.02 66.04 0)
+			(at 195.58 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1854,7 +2429,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 118.11 60.96 180)
+		(at 125.73 60.96 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1863,23 +2438,23 @@
 		(fields_autoplaced yes)
 		(uuid "77f2ad9e-2708-4b71-a994-c6b0510c2288")
 		(property "Reference" "D1"
-			(at 118.11 54.61 0)
+			(at 125.73 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "D"
-			(at 118.11 57.15 0)
+		(property "Value" "SDUR30Q65"
+			(at 125.73 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 118.11 60.96 0)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-2_Vertical"
+			(at 125.73 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1888,7 +2463,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 118.11 60.96 0)
+			(at 125.73 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1897,7 +2472,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 118.11 60.96 0)
+			(at 125.73 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1906,7 +2481,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 118.11 60.96 0)
+			(at 125.73 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1915,7 +2490,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 118.11 60.96 0)
+			(at 125.73 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1933,82 +2508,6 @@
 			(project "boost_converter1"
 				(path "/cab80593-e0bb-4db5-b73e-7b669222cb07/a5636f50-9f73-4124-ba2d-dfde1a48dc6e"
 					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:IRFP4468PbF")
-		(at 106.68 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c0ea523a-c0fa-47f3-bb9a-8d7783e8a208")
-		(property "Reference" "Q1"
-			(at 113.03 66.0399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRFP4468PbF"
-			(at 113.03 68.5799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-247-3_Vertical"
-			(at 111.76 69.215 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/irfp4468pbf.pdf?fileId=5546d462533600a40153562c73472019"
-			(at 111.76 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "195A Id, 100V Vds, N-Channel Power MOSFET, TO-247"
-			(at 106.68 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "876a2df6-d0c4-4860-94eb-a40321e6f4c6")
-		)
-		(pin "2"
-			(uuid "0ffbb1e7-14ad-4275-b3d5-84694c5e7501")
-		)
-		(pin "3"
-			(uuid "9bf9f22d-1ba6-43b5-8c1c-a3893298edc0")
-		)
-		(instances
-			(project "boost_converter1"
-				(path "/cab80593-e0bb-4db5-b73e-7b669222cb07/a5636f50-9f73-4124-ba2d-dfde1a48dc6e"
-					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -2106,7 +2605,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "iiks_footprints:200uHCustomL"
 			(at 99.06 60.96 0)
 			(effects
 				(font
@@ -2150,7 +2649,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 140.97 60.96 0)
+		(at 148.59 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2158,7 +2657,7 @@
 		(dnp no)
 		(uuid "f9ee5fdd-35ae-46e5-9394-553ae5db8739")
 		(property "Reference" "TP1"
-			(at 139.446 55.372 0)
+			(at 147.066 55.372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2167,7 +2666,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 143.51 58.9279 0)
+			(at 151.13 58.9279 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2177,7 +2676,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 60.96 0)
+			(at 153.67 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2186,7 +2685,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 146.05 60.96 0)
+			(at 153.67 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2195,7 +2694,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 140.97 60.96 0)
+			(at 148.59 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2210,6 +2709,152 @@
 			(project "boost_converter1"
 				(path "/cab80593-e0bb-4db5-b73e-7b669222cb07/a5636f50-9f73-4124-ba2d-dfde1a48dc6e"
 					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UVZ2A331MHD1TO:UVZ2A331MHD1TO")
+		(at 162.56 63.5 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb739845-1f86-4221-a67c-5e2e5af76adc")
+		(property "Reference" "C7"
+			(at 166.37 65.2652 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "UVZ2A331MHD1TO"
+			(at 166.37 67.8052 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "CAP_UEP_12P5X25_NCH"
+			(at 162.56 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "UVZ2A331MHD1TO"
+			(at 162.56 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "632e21cc-c4f2-47f9-a2ed-3d77fa385e1d")
+		)
+		(pin "1"
+			(uuid "e077cf32-7448-44a3-8685-5577378a6306")
+		)
+		(instances
+			(project "boost_converter1"
+				(path "/cab80593-e0bb-4db5-b73e-7b669222cb07/a5636f50-9f73-4124-ba2d-dfde1a48dc6e"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UVZ2A331MHD1TO:UVZ2A331MHD1TO")
+		(at 151.13 63.5 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb8444cc-5e9a-4312-b043-0bf6a2d0c659")
+		(property "Reference" "C6"
+			(at 154.94 65.2652 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "UVZ2A331MHD1TO"
+			(at 154.94 67.8052 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "CAP_UEP_12P5X25_NCH"
+			(at 151.13 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "UVZ2A331MHD1TO"
+			(at 151.13 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b8972ad-cc12-4bfc-985b-e2252db7a387")
+		)
+		(pin "1"
+			(uuid "6bce0684-8455-4529-bd1c-033653601008")
+		)
+		(instances
+			(project "boost_converter1"
+				(path "/cab80593-e0bb-4db5-b73e-7b669222cb07/a5636f50-9f73-4124-ba2d-dfde1a48dc6e"
+					(reference "C6")
 					(unit 1)
 				)
 			)
