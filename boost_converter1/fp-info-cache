@@ -1,4 +1,4 @@
-24761731377074792
+24770451533146988
 5mm pushbutton
 431181015816
 
@@ -58456,6 +58456,13 @@ heatsink
 0
 0
 0
+IRFP260N
+PG-TO247-3-46_INF
+
+IRFP260NPBF 
+0
+3
+3
 Inductor_SMD
 L_6.3x6.3_H3
 Choke, SMD, 6.3x6.3mm 3mm height
@@ -91258,6 +91265,13 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+STM32F030CCT6
+LQFP48-7x7mm
+
+STM32F030CCT6 
+0
+48
+48
 STM32L031F6P6
 TSSOP20
 
@@ -98818,6 +98832,13 @@ igbt diode module
 0
 25
 25
+UVZ2A331MHD1TO
+CAP_UEP_12P5X25_NCH
+
+UVZ2A331MHD1TO 
+0
+2
+2
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins
@@ -99599,6 +99620,20 @@ Varistor
 Varistor_Panasonic_VF
 Panasonic VF series varistor, 6x8mm body, 3.2mm height, https://mediap.industry.panasonic.eu/assets/imported/industrial.panasonic.com/cdbs/www-data/pdf/AWA0000/AWA0000C4.pdf
 Varistor VF
+0
+2
+2
+iiks_footprints
+200uHCustomL
+
+
+0
+2
+2
+iiks_footprints
+Untitled
+
+
 0
 2
 2
