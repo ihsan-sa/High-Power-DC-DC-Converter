@@ -632,6 +632,144 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R_Small_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small_US"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "r resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_US_1_1"
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "IRFP260N:IRFP260NPBF"
 			(pin_names
 				(offset 0.254)
@@ -1544,8 +1682,20 @@
 		)
 	)
 	(rectangle
-		(start 81.915 38.1)
-		(end 198.12 85.09)
+		(start 219.71 22.225)
+		(end 267.97 59.69)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 862db2eb-d849-47de-bc85-bee83aefd868)
+	)
+	(rectangle
+		(start 81.915 38.735)
+		(end 198.12 85.725)
 		(stroke
 			(width 0)
 			(type default)
@@ -1566,6 +1716,18 @@
 			)
 		)
 		(uuid "1d118fee-5d83-479e-8a22-938d22e9c8c4")
+	)
+	(text "Voltage Sense"
+		(exclude_from_sim no)
+		(at 226.314 21.082 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "1d7eb827-800a-42b5-a1ed-ae535dbcc316")
 	)
 	(junction
 		(at 109.22 73.66)
@@ -1628,6 +1790,12 @@
 		(uuid "b246d6ed-7929-4061-9be5-90d632cc71ab")
 	)
 	(junction
+		(at 246.38 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da4f5aeb-3eaf-4388-81ee-70d0b96b442b")
+	)
+	(junction
 		(at 151.13 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1648,6 +1816,16 @@
 			(type default)
 		)
 		(uuid "08623dc1-5215-422b-90b6-c1d408e8d4c9")
+	)
+	(wire
+		(pts
+			(xy 246.38 26.67) (xy 262.89 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b2adff7-1acd-407c-a2dd-a91743f79a8d")
 	)
 	(wire
 		(pts
@@ -1718,6 +1896,16 @@
 			(type default)
 		)
 		(uuid "5a3a3de4-8f4f-403a-b840-1c77b9b82c73")
+	)
+	(wire
+		(pts
+			(xy 246.38 26.67) (xy 246.38 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6729c21e-1b05-4ce5-b9bc-c8e14d07c01e")
 	)
 	(wire
 		(pts
@@ -1801,7 +1989,47 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 50.8) (xy 109.22 60.96)
+			(xy 242.57 38.1) (xy 246.38 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9272013c-913e-4314-a435-6a554ed66f74")
+	)
+	(wire
+		(pts
+			(xy 246.38 38.1) (xy 246.38 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97e2cbac-1e6a-4e11-9d76-75df56842b03")
+	)
+	(wire
+		(pts
+			(xy 246.38 48.26) (xy 246.38 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1825e6a-e7e0-4661-8ac5-91143724de82")
+	)
+	(wire
+		(pts
+			(xy 246.38 35.56) (xy 246.38 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6238ebc-db63-4bcc-a565-f849f706a40e")
+	)
+	(wire
+		(pts
+			(xy 109.22 55.88) (xy 109.22 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1891,6 +2119,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 54.61) (xy 148.59 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc247659-5775-4357-a72f-97856cf39777")
+	)
+	(wire
+		(pts
 			(xy 151.13 60.96) (xy 148.59 60.96)
 		)
 		(stroke
@@ -1959,6 +2197,16 @@
 		)
 		(uuid "fad4aee0-1741-47f7-bb84-06e53a95347d")
 	)
+	(label "BOOST_VOUT"
+		(at 250.19 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "13d9c4f2-1914-47da-89a9-5bb914d9fc2a")
+	)
 	(label "BOOST_OUTPUT"
 		(at 133.35 60.96 0)
 		(effects
@@ -1978,6 +2226,38 @@
 			(justify left bottom)
 		)
 		(uuid "4dbd5d59-77a3-4a2b-a085-925c34eff436")
+	)
+	(label "BOOST_VOUT"
+		(at 177.8 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ca3f27f4-bbdc-4387-ac92-6583a95c0cec")
+	)
+	(global_label "BOOST_VOUT_SENSE"
+		(shape input)
+		(at 242.57 38.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1186aa2e-9c27-45a9-bd77-df257356d559")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 220.7768 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "BOOST_PWM"
 		(shape input)
@@ -2000,73 +2280,6 @@
 				)
 				(justify right)
 				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 109.22 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "08fdba90-fc39-4b3c-87e9-189362384892")
-		(property "Reference" "TP2"
-			(at 107.696 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 111.76 48.7679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 114.3 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 109.22 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d9d7a528-66a1-4784-b8e3-04f2bbf87a7f")
-		)
-		(instances
-			(project "boost_converter1"
-				(path "/cab80593-e0bb-4db5-b73e-7b669222cb07/a5636f50-9f73-4124-ba2d-dfde1a48dc6e"
-					(reference "TP2")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -2428,6 +2641,142 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 246.38 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "650bc737-ee8a-41c8-9b1f-6d5a4251b78a")
+		(property "Reference" "#PWR026"
+			(at 246.38 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 246.38 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 246.38 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41a12fdd-3836-43b7-a76d-dbd89e2b61ac")
+		)
+		(instances
+			(project ""
+				(path "/cab80593-e0bb-4db5-b73e-7b669222cb07/a5636f50-9f73-4124-ba2d-dfde1a48dc6e"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 246.38 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69d9d498-93f0-41ea-a64b-5925858b02f4")
+		(property "Reference" "R3"
+			(at 248.92 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R_Small_US"
+			(at 248.92 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 246.38 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 246.38 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b05042b2-2afa-4335-969f-d390a2d911e0")
+		)
+		(pin "1"
+			(uuid "58138603-462a-4d0f-a9fd-6ed183c9cfe0")
+		)
+		(instances
+			(project "boost_converter1"
+				(path "/cab80593-e0bb-4db5-b73e-7b669222cb07/a5636f50-9f73-4124-ba2d-dfde1a48dc6e"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 125.73 60.96 180)
 		(unit 1)
@@ -2508,6 +2857,143 @@
 			(project "boost_converter1"
 				(path "/cab80593-e0bb-4db5-b73e-7b669222cb07/a5636f50-9f73-4124-ba2d-dfde1a48dc6e"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 109.22 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ad42a12f-56fc-4297-8e9c-8bd1e9a4e272")
+		(property "Reference" "TP2"
+			(at 107.696 50.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 111.76 53.8479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_4.0x4.0mm_Drill2.0mm"
+			(at 114.3 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 109.22 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc0386dc-b74b-4474-bbbc-2bc24a1c5317")
+		)
+		(instances
+			(project "boost_converter1"
+				(path "/cab80593-e0bb-4db5-b73e-7b669222cb07/a5636f50-9f73-4124-ba2d-dfde1a48dc6e"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 246.38 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bee4dc42-00b4-440f-b550-6fcba9d44f33")
+		(property "Reference" "R2"
+			(at 248.92 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R_Small_US"
+			(at 248.92 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 246.38 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 246.38 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "379101bc-91b6-4c59-b2c2-c0491a3a9df2")
+		)
+		(pin "1"
+			(uuid "4e400de7-4bee-49ed-868d-854de8c66a3b")
+		)
+		(instances
+			(project ""
+				(path "/cab80593-e0bb-4db5-b73e-7b669222cb07/a5636f50-9f73-4124-ba2d-dfde1a48dc6e"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -2649,7 +3135,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 148.59 60.96 0)
+		(at 148.59 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2657,7 +3143,7 @@
 		(dnp no)
 		(uuid "f9ee5fdd-35ae-46e5-9394-553ae5db8739")
 		(property "Reference" "TP1"
-			(at 147.066 55.372 0)
+			(at 147.066 49.022 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2666,7 +3152,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 151.13 58.9279 0)
+			(at 151.13 52.5779 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2675,8 +3161,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 153.67 60.96 0)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_4.0x4.0mm_Drill2.0mm"
+			(at 153.67 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2685,7 +3171,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 153.67 60.96 0)
+			(at 153.67 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2694,7 +3180,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 148.59 60.96 0)
+			(at 148.59 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
