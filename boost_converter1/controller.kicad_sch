@@ -2489,6 +2489,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Programming Connector\n"
+		(exclude_from_sim no)
+		(at 41.402 29.464 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1e47b530-bebb-4c90-8e76-1a846dcd846c")
+	)
+	(text "this uart is for tuning the control loop\n"
+		(exclude_from_sim no)
+		(at 229.87 88.392 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "94be044d-3284-43f7-982f-d31b548403a1")
+	)
 	(junction
 		(at 265.43 36.83)
 		(diameter 0)
